@@ -6,4 +6,8 @@ class StaticPagesController < ApplicationController
   def help
     @page_title = "Help"
   end
+  
+  def contact
+    @page_title = "Contact"
+  end
 end
